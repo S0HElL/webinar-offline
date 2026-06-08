@@ -43,7 +43,7 @@ Before running the script, ensure you have the following installed on your syste
 
 1. Create a new text file inside the extracted folder (where the `.flv` and `.xml` files are located).
 2. Rename the file to `stitch.py` (ensure the file extension changes from `.txt` to `.py`).
-3. Open `stitch.py` in a text editor, paste the Python script, and save it.
+3. Open `stitch.py` in a text editor, paste the Python script at [https://github.com/S0HElL/webinar-offline/blob/main/stitch.py](https://github.com/S0HElL/webinar-offline/blob/main/stitch.py), and save it.
 4. Open a Terminal / Command Prompt inside the folder where `stitch.py` is located.
 5. Run the script using Python:
    ```bash
