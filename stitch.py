@@ -13,7 +13,6 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 # ========== CONFIGURATION ==========
-OUTPUT_VIDEO = "output.mp4"
 USE_CUDA = True           # Set to False for CPU encoding if nvenc fails
 CRF = 18                  # Quality (lower=better, 18-23 good)
 FPS = 30
@@ -260,7 +259,10 @@ def main():
         sys.exit(1)
 
     total_ms = max([c["end_ms"] for c in screen_clips + audio_clips], default=0) + PADDING_MS
-    output_path = folder / OUTPUT_VIDEO
+    
+    # Dynamic name based on folder name
+    output_filename = f"{folder.name}.mp4"
+    output_path = folder / output_filename
     
     print(f"Total session duration: {total_ms/1000.0:.1f}s")
     
