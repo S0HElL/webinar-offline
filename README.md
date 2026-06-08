@@ -1,5 +1,8 @@
 # Adobe Connect Local Recording Stitcher
 
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
+[![فارسی](https://img.shields.io/badge/Language-فارسی-green)](README.fa.md)
+
 This guide will walk you through downloading an Adobe Connect recording from your university's server and converting it into a standard MP4 video file using a local Python script and FFmpeg.
 
 ### Acknowledgments and Inspiration
